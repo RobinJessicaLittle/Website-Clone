@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+.metaContainer {
+    border: 1.5px solid yellow;
+    width: 100%;
+    height: fit-content;
+    display: inline-block;
+    
+}
+
+* {
+    margin: 0px;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 5%);
+    background-position: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.netflixLogoContainer{
+    width: 100%;
+    height: 10%;
+    margin: auto;
+    border: 1.5px solid red; 
+    
+}
+
+.netflixLogo {
+    width: 10%;
+    color: rgb(232, 31, 31);
+    font-family: "Francois", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    border: 1.5px solid green;
+}
+.contentContainer {
+    border: 1.5px solid orange;
+    padding: 20px 5px;
+    width: 100%;
+}
+
+.whosWatchingText {
+    display: flex;
+    flex-direction:row;
+}
+h1 {
+    border: 1.5px solid palevioletred;
+    width: 100%;
+    color: #fff;
+    font-size: 3.5vw;
+    font-weight: unset;
+    font-family: 'Roboto:wght@100' , sans-serif;
+    text-align: center;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.netNavContainer{
+    border: 1.5px solid blue;
+}
+
+.imageLinksContainer {
+    border: 1.5px solid lightskyblue;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+.pics {
+    list-style-type: none;
+    width: 10vw;
+    max-width: 200px;
+    min-width: 84px;
+    margin: 0 2vw 0 0;
+}
+
+.names .pics:hover{
+    color: white;
+    border: 1px solid white;
+    margin: -0.5px;
+
+}
+.iconTextContainer{
+    border: 1.5px solid greenyellow;
+    font-family: 'Roboto:wght@100' , sans-serif;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.names {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.2vw;
+    min-height: 1.8em;
+    color: grey;
+    display: block;
+    text-align: center;
+    width: 10vw;
+    max-width: 200px;
+    min-width: 84px;
+    margin: 0 2vw 0 0;
+}
+
+.manageProfilesContainer {
+    border: 1.5px solid maroon; 
+    font-family: 'Roboto:wght@100' , sans-serif;
+    display: block;
+    margin: 2em 0 1em 0;
+    font-size: 1.2vw;
+    border: 1px solid grey;
+    color: grey;
+    padding: .5em 1.5em;
+    letter-spacing: 2px;
+    background-color: transparent;
+    width:fit-content;
+    margin-left: auto;  
+    margin-right: auto;
+}
+.manageProfilesContainer:hover {
+    color: white;
+    border: 1px solid white;
+    margin: -0.5px;
+}
