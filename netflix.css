@@ -34,7 +34,7 @@
     color: rgb(232, 31, 31);
     font-family: "Francois", sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     padding: 15px;
 }
 .contentContainer {
@@ -76,22 +76,27 @@ h1 {
     margin: 0 2vw 0 0;
 }
 
-.linkText:hover{
-    color: white;
-    border: none;
-    cursor: pointer;
+.linkText {
+    font-family: 'Roboto:wght@100' , sans-serif;
 }
 
-
-img:hover{
-    color: white;
-    border: 2px solid white;
-    border-radius: 5%;
+.pics:hover .linkText{
+    color: rgb(222, 218, 218);
+    border: none;
     cursor: pointer;
     
 }
+.imageLinksContainer {
+    padding: 0px;
+    background-color: transparent;
+}
+.pics:hover img{
+    border: 3px solid white;
+    border-radius: 5%;
+    
+}
 img {
-    border-radius: 6%;  
+    border-radius: 5%;  
 }
 
 .iconTextContainer{
@@ -105,7 +110,6 @@ img {
 button{
     all: unset;
     list-style-type: none;
-    text-decoration: none;
     font-size: 1.2vw;
     min-height: 1.8em;
     color: grey;
@@ -126,7 +130,7 @@ button{
     border: 1px solid grey;
     color: grey;
     padding: 0.5em 1.5em;
-    letter-spacing: 1px;
+    letter-spacing: 1.1px;
     background-color: transparent;
     width:fit-content;
     margin-left: auto;  
@@ -138,7 +142,7 @@ button{
 }
 
 
-button:hover{
+.manageProfilesContainer:hover button{
     color: white;
     border: none;
     cursor: pointer;
