@@ -83,10 +83,12 @@ h1 {
     margin: 0 2vw 0 0;
 }
 
-.names .pics:hover{
+button:hover{
     color: white;
     border: 1px solid white;
     margin: -0.5px;
+    border: none;
+    cursor: pointer;
 
 }
 .iconTextContainer{
@@ -98,7 +100,8 @@ h1 {
     flex-direction: row;
     justify-content: center;
 }
-.names {
+button{
+    all: unset;
     list-style-type: none;
     text-decoration: none;
     font-size: 1.2vw;
@@ -120,15 +123,10 @@ h1 {
     font-size: 1.2vw;
     border: 1px solid grey;
     color: grey;
-    padding: .5em 1.5em;
-    letter-spacing: 2px;
+    padding: 6.em 1.5em;
+    letter-spacing: 1px;
     background-color: transparent;
     width:fit-content;
     margin-left: auto;  
     margin-right: auto;
-}
-.manageProfilesContainer:hover {
-    color: white;
-    border: 1px solid white;
-    margin: -0.5px;
 }
